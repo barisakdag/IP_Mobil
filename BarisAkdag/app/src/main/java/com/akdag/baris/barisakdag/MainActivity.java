@@ -1,5 +1,6 @@
 package com.akdag.baris.barisakdag;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -13,9 +14,17 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+
+import java.math.BigInteger;
+import java.util.Random;
+
+import static android.R.attr.digits;
 
 public class MainActivity extends AppCompatActivity {
 
+    public static final String PREFS_NAME = "MyPrefsFile";
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
      * fragments for each of the sections. We use a
@@ -50,14 +59,18 @@ public class MainActivity extends AppCompatActivity {
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
 
+
+        // Händelsehantering 1.2
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Events connected to a snackbar", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
+
+
 
     }
 
@@ -131,4 +144,6 @@ public class MainActivity extends AppCompatActivity {
             return null;
         }
     }
+
+
 }

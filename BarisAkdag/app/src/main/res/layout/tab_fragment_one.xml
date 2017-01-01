@@ -8,13 +8,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     >
 
-    <EditText
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="numberSigned"
         android:ems="10"
         android:layout_marginTop="138dp"
-        android:id="@+id/RandomizedNumber"
+        android:id="@+id/highestPrimeNumber"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
@@ -24,6 +24,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
         android:id="@+id/checkPrime"
-        android:layout_below="@+id/RandomizedNumber"
+        android:layout_below="@+id/highestPrimeNumber"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>
