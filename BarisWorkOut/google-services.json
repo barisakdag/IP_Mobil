@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "892735833820",
+    "project_id": "barisworkout"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892735833820:android:554d055fa1832119",
+        "android_client_info": {
+          "package_name": "ipmobil.barisworkout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "892735833820-qpjmjhf0rnrefth1bfu9osgdl4t9fnd9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ipmobil.barisworkout",
+            "certificate_hash": "afebeedbff9215726e47195d840eced31f6537cb"
+          }
+        },
+        {
+          "client_id": "892735833820-bnk3gtb342jsn6h01s9b2c0m3u96ps98.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqTm9iKs9ftxo_scO6eQeDVvz9iXXKsZA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
